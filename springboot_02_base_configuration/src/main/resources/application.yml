@@ -1,0 +1,35 @@
+server:
+  port: 80
+
+
+country: China
+city: beijing
+
+user:
+  name: niu
+  age: 18
+
+user2:
+  name: yi
+  age: 18
+
+a:
+  b:
+    c:
+      d:
+        e: 123
+
+likes:
+  - apple
+  - pair
+
+dislies: [apple,pair]
+
+# 创建java类封装数据
+# 由sring加载封装好的数据
+
+datasource:
+  driver: com.mysql.jdbc.Driver
+  url: jdbc:mysql://localhost/springoot_db
+  username: root
+  password: 1234
